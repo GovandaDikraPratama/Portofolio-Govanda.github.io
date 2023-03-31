@@ -10,10 +10,14 @@ body {
   padding-top: 11rem;
   padding-bottom: 11rem;
   background-color: grey;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #about {
   padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 
@@ -21,6 +25,8 @@ body {
   background-color: grey;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #sertifikat h2 {
@@ -68,6 +74,8 @@ body {
 #contact {
   background-color: grey;
   padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 footer {
