@@ -1,19 +1,78 @@
 body {
   min-height: 3000px;
 }
+.navbar {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: large;
+}
 .jumbotron {
-  padding-top: 7rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
   background-color: grey;
 }
 
+#about {
+  padding-bottom: 6rem;
+}
+
+
+#sertifikat {
+  background-color: grey;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+#sertifikat h2 {
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px rgb(6, 6, 6);
+}
+
+#sertifikat .card {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+#sertifikat .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sertifikat .card-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#sertifikat .btn-primary {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#sertifikat .btn-primary:hover {
+  background-color: #3e8e41;
+}
 
 #projects {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 6rem;
+}
+#contact {
   background-color: grey;
+  padding-bottom: 6rem;
 }
 
 footer {
   background-color: #273036;
-  padding: 1.5em;
+  padding: 1em;
   text-align: center;
   color: rgb(243, 238, 238);
 }
