@@ -1,11 +1,31 @@
 body {
   min-height: 3000px;
 }
+/* Style untuk navbar */
 .navbar {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   font-size: large;
 }
+
+/* Style untuk navbar ketika di-klik */
+@media screen and (max-width: 767px) {
+  .navbar:target {
+    background-color: #000000; /* ubah warna background navbar */
+    height: 100vh; /* ubah tinggi navbar menjadi full screen */
+  }
+  .navbar:target .navbar-nav {
+    display: block; /* tampilkan navbar menu */
+  }
+  .navbar:target .navbar-toggler {
+    display: none; /* sembunyikan tombol toggle navbar */
+  }
+  .navbar:target .navbar-nav .nav-link {
+    display: block; /* tampilkan navbar menu item */
+    padding: 1rem; /* tambahkan padding pada menu item */
+  }
+}
+
 .jumbotron {
   padding-top: 11rem;
   padding-bottom: 11rem;
@@ -16,8 +36,6 @@ body {
 
 #about {
   padding-bottom: 6rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 
